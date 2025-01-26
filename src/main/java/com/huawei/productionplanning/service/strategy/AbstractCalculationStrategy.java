@@ -34,15 +34,7 @@ public abstract class AbstractCalculationStrategy {
         return resultMap;
     }
 
-    protected void calculateForProductionTarget(Project project, Integer productionTargetQuantity, Months month, HashMap<String, HashMap<String, Integer>> resultMap) {
-        HashMap<String, Integer> modelPartQuantityMap = new HashMap<>();
-
-        for (Model model : project.getModels()) {
-            calculateForModel(productionTargetQuantity, month.ordinal(), model, modelPartQuantityMap);
-        }
-
-        resultMap.put(month.name(), modelPartQuantityMap);
-    }
+    protected abstract void calculateForProductionTarget(Project project, Integer productionTargetQuantity, Months month, HashMap<String, HashMap<String, Integer>> resultMap);
 
     protected void calculateForModel(Integer productionTargetQuantity, Integer periodIndex, Model model, HashMap<String, Integer> modelPartQuantityMap) {
         ModelDistribution modelDistribution = getModelDistribution(periodIndex, model.getId());
