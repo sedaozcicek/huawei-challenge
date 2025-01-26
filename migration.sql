@@ -1,6 +1,5 @@
-INSERT INTO public.projects (created_at, updated_at, end_date, name, planning_type, start_date, deleted) VALUES ('2025-01-26 03:45:36.994468', '2025-01-26 03:45:36.994468', '2025-01-26', 'CarProject', 'FIXED', '2025-01-26', false);
-INSERT INTO public.projects (created_at, updated_at, end_date, name, planning_type, start_date, deleted) VALUES ('2025-01-24 11:32:16.361376', '2025-01-25 15:50:52.143835', '2025-08-10', 'HuaweiMatePad2', 'WEEKLY', '2025-01-10', false);
 INSERT INTO public.projects (created_at, updated_at, end_date, name, planning_type, start_date, deleted) VALUES ('2025-01-25 14:46:59.171627', '2025-01-26 03:42:14.545028', '2025-05-25', 'HuaweiMatePad', 'MONTHLY', '2025-01-25', false);
+INSERT INTO public.projects (created_at, updated_at, end_date, name, planning_type, start_date, deleted) VALUES ('2025-01-24 11:32:16.361376', '2025-01-25 15:50:52.143835', '2025-08-10', 'HuaweiMatePad2', 'WEEKLY', '2025-01-10', false);
 INSERT INTO public.parts (created_at, updated_at, code, name, deleted) VALUES ('2025-01-24 11:35:05.321614', '2025-01-24 11:35:05.321614', 'i5', 'i5', false);
 INSERT INTO public.parts (created_at, updated_at, code, name, deleted) VALUES ('2025-01-24 11:35:13.297106', '2025-01-24 11:35:13.297106', 'i7', 'i7', false);
 INSERT INTO public.parts (created_at, updated_at, code, name, deleted) VALUES ('2025-01-24 11:35:28.984968', '2025-01-24 11:35:28.984968', '8gb', '8gb', false);
