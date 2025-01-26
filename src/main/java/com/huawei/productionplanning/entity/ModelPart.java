@@ -26,7 +26,4 @@ public class ModelPart extends BaseEntity {
     private Part part;
 
     private Integer quantity;
-
-    @OneToOne
-    private ModelDistribution distribution;
 }
