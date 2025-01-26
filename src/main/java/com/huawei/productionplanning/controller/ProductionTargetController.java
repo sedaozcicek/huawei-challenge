@@ -2,7 +2,6 @@ package com.huawei.productionplanning.controller;
 
 import com.huawei.productionplanning.dto.ProductionTargetDTO;
 import com.huawei.productionplanning.enums.Months;
-import com.huawei.productionplanning.enums.PlanningType;
 import com.huawei.productionplanning.service.ProductionTargetService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

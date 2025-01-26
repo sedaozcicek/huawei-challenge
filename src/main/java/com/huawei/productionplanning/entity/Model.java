@@ -1,6 +1,5 @@
 package com.huawei.productionplanning.entity;
 
-import com.huawei.productionplanning.enums.PlanningType;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;

@@ -1,9 +1,7 @@
 package com.huawei.productionplanning.controller;
 
 import com.huawei.productionplanning.dto.CreateModelDTO;
-import com.huawei.productionplanning.dto.ModelDistributionDTO;
 import com.huawei.productionplanning.entity.Project;
-import com.huawei.productionplanning.enums.PlanningType;
 import com.huawei.productionplanning.service.ModelService;
 import com.huawei.productionplanning.service.ProjectService;
 import lombok.RequiredArgsConstructor;
@@ -46,6 +44,4 @@ public class ModelController {
         modelService.deleteModel(modelId);
         return ResponseEntity.ok().build();
     }
-
-
 }

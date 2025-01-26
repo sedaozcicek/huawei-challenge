@@ -1,6 +1,5 @@
 package com.huawei.productionplanning.service.impl;
 
-import com.huawei.productionplanning.dto.ModelDTO;
 import com.huawei.productionplanning.dto.ProjectDTO;
 import com.huawei.productionplanning.entity.Model;
 import com.huawei.productionplanning.entity.ProductionTarget;
@@ -13,7 +12,6 @@ import com.huawei.productionplanning.mapper.ProjectMapper;
 import com.huawei.productionplanning.repository.ModelRepository;
 import com.huawei.productionplanning.repository.ProjectRepository;
 import com.huawei.productionplanning.service.ProjectService;
-import jakarta.annotation.Nonnull;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

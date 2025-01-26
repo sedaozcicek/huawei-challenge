@@ -27,7 +27,6 @@ public class Utils {
     }
 
     public static LocalDate patternDate(String inputDate) {
-        //String formattedDate = checkInputDate(inputDate);
         String formattedDate = "dd/MM/yyyy";
         return LocalDate.parse(inputDate, DateTimeFormatter.ofPattern(formattedDate));
     }
@@ -94,29 +93,4 @@ public class Utils {
         return weeks;
     }
 
-    public static Map<Months, Integer> getRemainingDaysInMonthForWeek(int weekNumber, int year) {
-        Map<Months, Integer> resultMap = new HashMap<>();
-
-        LocalDate startDate = LocalDate.of(year, 1, 1)
-                .with(WeekFields.ISO.weekOfYear(), weekNumber);
-
-        LocalDate endDate = startDate.plusDays(6);
-
-        Months startMonth = mapToMonths(startDate.getMonth());
-        Months endMonth = mapToMonths(endDate.getMonth());
-
-        if (startMonth.equals(endMonth)) {
-            int remainingDays = endDate.getDayOfMonth() - startDate.getDayOfMonth() + 1;
-            resultMap.put(startMonth, remainingDays);
-        } else {
-            LocalDate endOfStartMonth = startDate.with(TemporalAdjusters.lastDayOfMonth());
-            int remainingDaysStartMonth = endOfStartMonth.getDayOfMonth() - startDate.getDayOfMonth() + 1;
-            resultMap.put(startMonth, remainingDaysStartMonth);
-
-        }
-        return resultMap;
-    }
-
-
-
-    }
+}

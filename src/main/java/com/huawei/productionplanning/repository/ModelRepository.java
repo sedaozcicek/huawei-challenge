@@ -2,8 +2,6 @@ package com.huawei.productionplanning.repository;
 
 import com.huawei.productionplanning.entity.Model;
 import com.huawei.productionplanning.entity.Project;
-import com.huawei.productionplanning.enums.Months;
-import com.huawei.productionplanning.enums.PlanningType;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

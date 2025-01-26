@@ -1,7 +1,6 @@
 package com.huawei.productionplanning.dto;
 
 import com.huawei.productionplanning.enums.Months;
-import com.huawei.productionplanning.enums.PlanningType;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

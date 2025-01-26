@@ -9,9 +9,6 @@ import com.huawei.productionplanning.repository.ModelDistributionRepository;
 import com.huawei.productionplanning.repository.ProductionTargetRepository;
 import com.huawei.productionplanning.repository.ProjectRepository;
 import com.huawei.productionplanning.utils.Utils;
-import lombok.AllArgsConstructor;
-import lombok.RequiredArgsConstructor;
-import org.apache.commons.math3.analysis.function.Abs;
 import org.springframework.stereotype.Component;
 
 import java.util.HashMap;

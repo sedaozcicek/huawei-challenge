@@ -1,9 +1,7 @@
 package com.huawei.productionplanning.controller;
 
-import com.huawei.productionplanning.dto.ModelDTO;
 import com.huawei.productionplanning.dto.ProjectDTO;
 import com.huawei.productionplanning.entity.Project;
-import com.huawei.productionplanning.enums.Months;
 import com.huawei.productionplanning.enums.PlanningType;
 import com.huawei.productionplanning.exception.ResourceNotFoundException;
 import com.huawei.productionplanning.repository.ProjectRepository;
@@ -16,7 +14,6 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.HashMap;
 import java.util.List;
-import java.util.Objects;
 
 @RestController
 @RequestMapping("/api/projects")

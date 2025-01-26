@@ -1,6 +1,5 @@
 package com.huawei.productionplanning.service;
 
-import com.huawei.productionplanning.dto.ModelDTO;
 import com.huawei.productionplanning.dto.ProjectDTO;
 import com.huawei.productionplanning.entity.Project;
 import com.huawei.productionplanning.enums.PlanningType;
